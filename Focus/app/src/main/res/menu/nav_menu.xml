@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_timerfragment"
+            android:icon="@drawable/timericon"
+            android:title="Timer"/>
+        <item
+            android:id="@+id/nav_recordsfragment"
+            android:icon="@drawable/recordsicon"
+            android:title="Records"/>
+        <item
+            android:id="@+id/nav_calendarfragment"
+            android:icon="@drawable/calendaricon"
+            android:title="Note"/>
+        <item
+            android:id="@+id/nav_dailyfragment"
+            android:icon="@drawable/noteicon"
+            android:title="Daily"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/aboutusicon"
+            android:title="About Us"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logouticon"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordsFragment"
+    android:background="@drawable/timerground">
+
+    <ListView
+        android:id="@+id/previousRecordsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_stop"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
